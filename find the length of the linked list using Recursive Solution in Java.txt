@@ -1,0 +1,6 @@
+public int length(Node current){
+ if(current == null){ //base case
+   return 0;
+ }
+ return 1+length(current.next());
+}
